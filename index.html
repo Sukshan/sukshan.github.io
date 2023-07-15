@@ -1,14 +1,53 @@
-<html>
-<body>
-	<h2> demo form </h2>
-	<form action= "/action_page.php">
-		<label for="fname">First name: </label><br>
-		<input type="text" id= "fname" name="fname" value="enter your name here"><br>
-		<label for="lname">Last name: </label><br>
-		<input type="text" id="lanem" name="lname" value="enter your last name here"><br><br>
-		<input type="submit" name="Submit">
-	</form>
+<!DOCTYPE html>
+<html lang="en">
 
-	<p> hi this is a demo github page </p>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content= "width = devide-width, initial-scale= 1.0">
+	<title>Sukshan's Porfolio</title> 
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+		body{
+			font-family: 'Raleway';
+		}
+		*{
+			margin:0;
+			padding : 0;
+		}
+		.imgbox{
+			display : grid;
+			height : 100;
+		}
+		.center-fit{
+			max-width: 100%;
+			max-height: 100vh;
+			margin:auto;
+		}
+		.header{
+			padding-top: 50px;
+			padding-right: 30px;
+			padding-bottom: 50px;
+			padding-left: 80px;
+		}
+	</style>
+</head>
+
+
+<body>
+	<div class="header">
+		<h1 style="font-size:3vw">Sukshan Jadhao</h1>
+		<!-- <p style="font-size:2vw"> My header </p> -->
+	</div>
+	<div class="imgbox">
+		<img class="center-fit" src="firstImage.jpg" alt="Main image">
+		<div>
+			<p>Hii!</p>
+			<p>My name is Sukshan</p>
+			<p>I am CS grad</p>
+			<p>I love software programming and DSA</p>
+			<p>Big halo fan and also into PC gaming</p>
+			<p>I like to read as well</p>
+		</div>
+	</div>
 </body>
 </html>
